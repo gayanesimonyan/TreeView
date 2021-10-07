@@ -1,0 +1,61 @@
+body {
+    background-image: url(/Picture/Map-of-Armenia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;
+    background-attachment: fixed;
+  }
+
+  h2 {
+    user-select: none;
+    text-align: center;
+    font-family:Verdana, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    color: darkmagenta;
+  }
+
+  li {
+    font-family:Verdana, sans-serif;
+    font-style: italic;
+    color:indigo
+  }
+  
+  ul, .firstUl {
+    list-style-type: none;
+    
+  }
+
+  .firstUl {
+    margin-left: 400px;
+    margin-right: 500px;
+  }
+
+  .caret {
+    cursor:pointer;
+    user-select: none;
+  }
+
+  .caret::before {
+    content: "\27a4";
+    color:indigo;
+    font-style: normal;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .caret:hover {
+    text-shadow: 2px 2px rgb(168, 100, 216);
+  }
+
+  .caret-down::before {
+    transform: rotate(90deg);
+  }
+
+  .nested {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
